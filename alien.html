@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Tourist Guide to Earth</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #e9f7fe;
+            margin-bottom: 30px;
+        }
+        
+        .section {
+            padding: 30px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .card {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .guide-item {
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+       
+        
+        footer {
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+ 
+        @media (min-width: 768px) {
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            .card {
+                width: 48%;
+            }
+            
+            .guide {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            .guide-item {
+                width: 48%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Alien Tourist Guide to Earth</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#guide">Survival Guide</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Planet Earth!</h2>
+            <p>A beginner's guide for Alien visitors</p>
+        </div>
+    </section>
+
+    <section id="destinations" class="section">
+        <div class="container">
+            <h2>Top Earth Destinations</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="text">New York City</h3>
+                    <img src="images/new-york-7256575.webp"New York City">
+                    <p>A famous City in USA.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guide" class="section">
+        <div class="container">
+            <h2>Earth Survival Guide</h2>
+            <div class="guide">
+                <div class="guide-item">
+                    <h3>Atmosphere Information</h3>
+                    <p><strong>Composition:</strong> 78% nitrogen, 21% oxygen, 1% other gases</p>
+                    <p><strong>Warning:</strong> Oxygen is highly reactive and flammable</p>
+                </div>
+                
+                <div class="guide-item">
+                    <h3>Essential Equipment</h3>
+                    <ul>
+                        <li>Environmental suit</li>
+                        <li>Universal translator</li>
+                        <li>Holographic disguise</li>
+                        <li>Currency converter</li>
+                    </ul>
+                </div>
+                
+                <div class="guide-item">
+                    <h3>Cultural Tips</h3>
+                    <p><strong>Do:</strong> Use local currency, try local foods, learn basic greetings</p>
+                    <p><strong>Don't:</strong> Reveal your true form, discuss advanced technology, probe without permission</p>
+                </div>
+                
+                <div class="guide-item">
+                    <h3>Emergency Protocols</h3>
+                    <p>If discovered: Activate camouflage and contact Galactic Embassy immediately</p>
+                    <p>Emergency frequency: 1420.40575177 MHz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>Is Earth safe for my species?</h3>
+                <p>Earth is classified as a Level 3 Risk Planet. While generally safe, precautions are necessary. The atmosphere contains microbes that may interact unpredictably with non-terrestrial biology.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What if humans discover my true form?</h3>
+                <p>Immediately activate your camouflage device and retreat to a safe location. Contact Galactic Embassy through your subspace communicator. Do not reveal advanced technology.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I bring Earth specimens back home?</h3>
+                <p>Collection of biological specimens is strictly regulated. Microorganisms and plants below Class 3 may be collected with proper permits. Animal specimens require special authorization.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I handle Earth's time zones?</h3>
+                <p>Earth is divided into 24 time zones. Your universal translator can automatically adjust to local time. Remember to account for daylight saving time in some regions.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Galactic Embassy</h2>
+            
+            <form>
+                <div class="form-group">
+                    <label for="species">Your Species</label>
+                    <input type="text" id="species" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="planet">Home Planet</label>
+                    <input type="text" id="planet" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Current Location on Earth</label>
+                    <input type="text" id="location">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                
+                <a  type="submit" href="next.html">Send Message to Embassy</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Earth Guide &copy; 30572 </p>
+            <p>Sector 001, Milky Way Galaxy</p>
+        </div>
+    </footer>
+</body>
+</html>
